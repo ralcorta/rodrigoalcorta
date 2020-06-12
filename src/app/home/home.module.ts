@@ -3,13 +3,14 @@ import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
+import { NewsletterComponent } from '../component/newsletter/newsletter.component';
 
 
 @NgModule({
-  declarations: [HomeComponent],
+  declarations: [HomeComponent, NewsletterComponent],
   imports: [
     CommonModule,
     HomeRoutingModule
-  ]
+  ],
 })
 export class HomeModule { }
