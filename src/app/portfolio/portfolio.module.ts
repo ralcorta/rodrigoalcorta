@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { HomeRoutingModule } from './home-routing.module';
-import { HomeComponent } from './home.component';
+import { PortfolioRoutingModule } from './portfolio-routing.module';
+import { PortfolioComponent } from './portfolio.component';
 import { NewsletterComponent } from '../component/newsletter/newsletter.component';
 
 
 @NgModule({
-  declarations: [HomeComponent],
+  declarations: [PortfolioComponent],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    PortfolioRoutingModule
   ],
 })
-export class HomeModule { }
+export class PortfolioModule { }
