@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:prod": "ng build --prod --aot --base-href https://ralcorta.github.io/rodrigoalcorta/",
+    "build:prod": "ng build --prod --aot --base-href",
     "deploy": "npm run build:prod && gh-pages -d dist/rodrigoalcorta"
   },
   "private": true,
