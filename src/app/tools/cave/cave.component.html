@@ -1,0 +1,25 @@
+<section class="about_area section_gap">
+  <div class="container">
+    <div class="row justify-content-start align-items-center">
+      <div class="main_title text-left">
+        <h2>Calculadora </h2>
+        <p>
+          Herramientas para desarrolladores.
+        </p>
+        <p>
+          Monto: $ <input placeholder="Monto ($)" type="number" [(ngModel)]="amount">
+          <br><br>
+          Por deposito: % <input name="deposit" placeholder="Deposito (%)" type="number" [(ngModel)]="deposit">
+          <br><br>
+          Por retenciones % <input name="withholdings" placeholder="Retenciones (%)" type="number"
+            [(ngModel)]="withholdings">
+          <br><br>
+          Por banco: $ <input name="bank" placeholder="Banco ($)" type="number" [(ngModel)]="bank">
+          <br><br>
+          <span><b>Total:</b> ${{total}}</span>
+        </p>
+        <button class="primary_btn" (click)="onCalculate()"><span>Calcular</span></button>
+      </div>
+    </div>
+  </div>
+</section>

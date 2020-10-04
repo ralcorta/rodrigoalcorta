@@ -12,6 +12,11 @@ const routes: Routes = [
     loadChildren: () => import('./portfolio/portfolio.module')
       .then(m => m.PortfolioModule),
   },
+  {
+    path: 'tools',
+    loadChildren: () => import('./tools/tool.module')
+      .then(m => m.ToolModule),
+  },
   { path: 'home', redirectTo: '' },
   { path: '**', redirectTo: '' },
 ];

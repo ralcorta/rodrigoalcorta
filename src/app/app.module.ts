@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeModule } from './home/home.module';
 import { SharedModule } from './shared/shared.module';
 import { PortfolioModule } from './portfolio/portfolio.module';
+import { CaveModule } from './tools/cave/cave.module';
+import { ToolModule } from './tools/tool.module';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { PortfolioModule } from './portfolio/portfolio.module';
     /** Pages */
     HomeModule,
     PortfolioModule,
+    ToolModule,
+    CaveModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
