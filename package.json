@@ -1,7 +1,8 @@
 {
-  "name": "liveterm",
+  "name": "rodrigoalcorta.com",
   "version": "0.1.0",
   "license": "MIT",
+  "homepage": "https://ralcorta.github.io/rodrigoalcorta",
   "author": {
     "name": "Vincent Wu",
     "url": "https://cveinnt.com",
@@ -12,10 +13,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "axios": "^0.27.2",
+    "gh-pages": "^4.0.0",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",

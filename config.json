@@ -1,32 +1,22 @@
 {
-  "readmeUrl": "https://rodrigoalcorta.com",
-  "title": "Rodrigo",
+  "readmeUrl": "https://github.com/ralcorta/ralcorta/blob/main/README.md",
+  "title": "$ Rodrigo Alcorta",
   "name": "Rodrigo Victor Alcorta",
-  "ascii": "liveterm",
+  "ascii": "rodrigovictoralcorta",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "ralcorta",
+    "linkedin": "rodrigoalcorta"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "email": "rodrigovictoralcorta@gmail.com",
+  "ps1_hostname": "rodrigoalcorta.com",
+  "ps1_username": "root",
+  "repo": "https://github.com/ralcorta",
+  "resume_url": "https://www.canva.com/design/DAD9dx-h-qA/rORiDoz5NUBx9eiirQ3pUw/view",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "coffee": "https://cafecito.app/rodrigoalcorta"
   },
   "colors": {
     "light": {
-      "background": "#FBF1C9",
-      "foreground": "#3C3836",
-      "yellow": "#D79921",
-      "green": "#98971A",
-      "gray": "#7C6F64",
-      "blue": "#458588",
-      "red": "#CA2124"
-    },
-    "dark": {
       "background": "#2E3440",
       "foreground": "#E5E9F0",
       "yellow": "#5E81AC",
@@ -34,28 +24,6 @@
       "gray": "#88C0D0",
       "blue": "#EBCB8B",
       "red": "#BF616A"
-    },
-    "custom": {
-      "terminal.background": "#090300",
-      "terminal.foreground": "#A5A2A2",
-      "terminalCursor.background": "#A5A2A2",
-      "terminalCursor.foreground": "#A5A2A2",
-      "terminal.ansiBlack": "#090300",
-      "terminal.ansiBlue": "#01A0E4",
-      "terminal.ansiBrightBlack": "#5C5855",
-      "terminal.ansiBrightBlue": "#01A0E4",
-      "terminal.ansiBrightCyan": "#B5E4F4",
-      "terminal.ansiBrightGreen": "#01A252",
-      "terminal.ansiBrightMagenta": "#A16A94",
-      "terminal.ansiBrightRed": "#DB2D20",
-      "terminal.ansiBrightWhite": "#F7F7F7",
-      "terminal.ansiBrightYellow": "#FDED02",
-      "terminal.ansiCyan": "#B5E4F4",
-      "terminal.ansiGreen": "#01A252",
-      "terminal.ansiMagenta": "#A16A94",
-      "terminal.ansiRed": "#DB2D20",
-      "terminal.ansiWhite": "#A5A2A2",
-      "terminal.ansiYellow": "#FDED02"
     }
   }
 }
