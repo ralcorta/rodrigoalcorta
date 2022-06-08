@@ -16,7 +16,7 @@
     "export": "next export",
     "prepare": "husky install",
     "predeploy": "yarn build",
-    "deploy": "yarn build && yarn export && gh-pages -d out"
+    "deploy": "yarn export && touch ./out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
     "axios": "^0.27.2",
