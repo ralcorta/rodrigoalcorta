@@ -1,12 +1,12 @@
 {
   "name": "rodrigoalcorta.com",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "homepage": "https://ralcorta.github.io/rodrigoalcorta",
   "author": {
-    "name": "Vincent Wu",
-    "url": "https://cveinnt.com",
-    "email": "contact@wensenwu.com"
+    "name": "Rodrigo Victor Alcorta",
+    "url": "https://rodrigoalcorta.com",
+    "email": "rodrigovictoralcorta@gmail.com"
   },
   "scripts": {
     "dev": "next dev",
