@@ -15,11 +15,11 @@
     "lint": "next lint",
     "export": "next export",
     "prepare": "husky install",
-    "predeploy": "yarn build",
-    "deploy": "yarn export && touch ./out/.nojekyll && gh-pages -d out -t true"
+    "predeploy": "pnpm build",
+    "deploy": "pnpm export && touch ./out/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.17.0",
     "gh-pages": "^4.0.0",
     "next": "12.1.6",
     "react": "18.1.0",

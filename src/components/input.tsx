@@ -16,6 +16,8 @@ export const Input = ({
   clearHistory,
 }) => {
   const onSubmit = async (event: React.KeyboardEvent<HTMLInputElement>) => {
+    const submittedCommand = command.trim().split(' ')[0].toLowerCase();
+    const currentScrollTop = containerRef.current?.scrollTop ?? 0;
     const commands: [string] = history
       .map(({ command }) => command)
       .filter((command: string) => command);
@@ -41,7 +43,15 @@ export const Input = ({
       event.preventDefault();
       setLastCommandIndex(0);
       await shell(command, setHistory, clearHistory, setCommand);
-      containerRef.current.scrollTo(0, containerRef.current.scrollHeight);
+
+      window.requestAnimationFrame(() => {
+        const nextScrollTop =
+          submittedCommand === 'resume'
+            ? currentScrollTop + 120
+            : containerRef.current.scrollHeight;
+
+        containerRef.current.scrollTo(0, nextScrollTop);
+      });
     }
 
     if (event.key === 'ArrowUp') {

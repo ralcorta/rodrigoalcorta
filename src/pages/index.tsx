@@ -29,8 +29,13 @@ const IndexPage: React.FC<IndexPageProps> = ({ inputRef }) => {
   }, [init]);
 
   React.useEffect(() => {
+    const lastEntry = history[history.length - 1];
+
     if (inputRef.current) {
-      inputRef.current.scrollIntoView();
+      if (lastEntry?.command !== 'resume') {
+        inputRef.current.scrollIntoView();
+      }
+
       inputRef.current.focus({ preventScroll: true });
     }
   }, [history]);
